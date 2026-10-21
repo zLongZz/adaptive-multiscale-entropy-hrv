@@ -205,8 +205,8 @@
     "Remove standalone self-test entry blocks"
   ],
   "release_entry_sha256": "b643746c76305ad3385efc6d6f8dccb3e60c8ee68dfccf39c7847f0073a51df9",
-  "readme_sha256": "263a805f5267cba162af91a03ac9dc8a10a0fd3585b7e7bebf4ef07390eeed0e",
+  "readme_sha256": "f27d3b7f53b34a5840a5d8eac29df12f8fb7d1e85119890649368c12927bdfdf",
   "source_file_count": 41,
   "environment_sha256": "82c8f10e72446af55535f5a039ca78790eacd43a07265891ee3b3a13f23f5a1d",
-  "license_sha256": "3cc687365bbb2fb1bd4cae1cbff4f63e402775cbc91ea663d08280e5112bde80"
+  "license_sha256": "9af4f21993d3f302aa8aa95967199103f7468a56be485dfe57f041556e9ea854"
 }

@@ -14,7 +14,7 @@ Input data are supplied by the user and are not included in this package.
 
 ## License and independent verification
 
-Copyright (c) 2026 Kai Zheng. This repository's code and documentation are available under the [MIT License](LICENSE). You may use, modify, and redistribute them, including for independent verification, provided the copyright and license notice are retained. The license does not cover third-party dependencies or study data.
+Copyright (c) 2026 Kai Zheng (School of Biomedical Engineering, Sun Yat-sen University). This repository's code and documentation are available under the [MIT License](LICENSE). You may use, modify, and redistribute them, including for independent verification, provided the copyright and license notice are retained. The license does not cover third-party dependencies or study data.
 
 For a reproducible code review, record the Git commit identifier, use the supplied `environment.yml`, and retain the input format and processing settings described here. `SOURCE_MANIFEST.json` identifies the V2.0 source lineage and hashes of the released code files. Clinical data and original ECG recordings are not in this repository; reproducing study-level numerical results requires access to the corresponding study inputs and analysis materials.
 
