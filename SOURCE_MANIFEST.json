@@ -1,0 +1,211 @@
+{
+  "release_type": "source_only_public_candidate",
+  "upstream_version": "V2.0",
+  "upstream_tree_sha256": "cf9f2f7c10eac60caffd0461f3d5ab3597661cd1517eda22f5219ece22888696",
+  "cloned_files": [
+    {
+      "path": "config/config_formal.py",
+      "upstream_sha256": "d3ba9220143fdf097ebee4ed42cd19866ca2be5b7d083b239c167ab8bf575248",
+      "release_sha256": "4b46e6b0fd671fa38fd488d98f4dcbf8820ebc7ab5ea4f363c3b1c7ae4832929"
+    },
+    {
+      "path": "scripts/pipeline_runner.py",
+      "upstream_sha256": "5bb2dc297b24a899a95673b4dcbc9af67492eda8935514baec346f6e14370a9b",
+      "release_sha256": "06122913b7f28c5204e5b5a67adf1be569b7e7f56530af8c2b7306210fe55cf2"
+    },
+    {
+      "path": "modules/core/__init__.py",
+      "upstream_sha256": "b924c71b423021c1fc135243cd46984d87a2821cf344386b3b4dde407ce6daaa",
+      "release_sha256": "7a5c8f274a2fbdcc8c09260cd7e394f0bcc68c2b1ed018aa2248977f4b699ad4"
+    },
+    {
+      "path": "modules/core/logger.py",
+      "upstream_sha256": "72d8a78daa57569cd1c13fa1ad403ff566430de54615e34e990ca1fcbc33ce8b",
+      "release_sha256": "7a76a440347e0a55c8831d4e9cc62317c67583c63112d15c6d26faaebb28f748"
+    },
+    {
+      "path": "modules/core/utils.py",
+      "upstream_sha256": "ef63acd2aa082c138afa286f3554d4469d506b68ae5fbf5004a74468cdc9e329",
+      "release_sha256": "cd1d537fc8004061b5e29ae97cc8ad754e9c30b24540eac2575113d9925b0e20"
+    },
+    {
+      "path": "modules/layer1_data_loader/__init__.py",
+      "upstream_sha256": "6d9096ed3d9feddbe0c3b1f4e47a11fc0aaa2444be92265021e5508b6b38f6cb",
+      "release_sha256": "ce5aee7b8b1c75fd74b4b13a5fbc4e937847ce17933925070966e4299572386e"
+    },
+    {
+      "path": "modules/layer1_data_loader/data_loader.py",
+      "upstream_sha256": "2a6a08482a13eff9957187b0d4579bf035a05511fc11c31fa8b2df01e0ee8451",
+      "release_sha256": "f149bcfae305cb9e71d8ceccadb86fc1e295f17dc135e814f463f994d6090360"
+    },
+    {
+      "path": "modules/layer1_data_loader/data_quality_checker.py",
+      "upstream_sha256": "9bd4333155fd8270a379bc2b5c392b4f7fec6664496d66be98668ad8bea27a49",
+      "release_sha256": "c5065257921fe6b8fa97d97aeca79509fdee7da49771dac56f19763d8f479c04"
+    },
+    {
+      "path": "modules/layer1_data_loader/ecg_file_locator.py",
+      "upstream_sha256": "526e7c463dec5ac9d929e140ab71037ba8c48d612123d875f0d2d52fabdc28a3",
+      "release_sha256": "c7d91fa5d6a79082eb346de99fdf01727f3a1cc2b1257219fbe54cedfc24e0c2"
+    },
+    {
+      "path": "modules/layer1_data_loader/ecg_reader.py",
+      "upstream_sha256": "a90ebc8bb6aa268a232f921f7af6f1630c0c2ec225c0f6c1fda94d2d255cd893",
+      "release_sha256": "4db533e35201672fd558ba88c71590ea1286d0ce8fffebe58e884d3a15865bb4"
+    },
+    {
+      "path": "modules/layer1_data_loader/hea_parser.py",
+      "upstream_sha256": "53dd8ad0554c606ecbbb2cc367d057781897df97361a81e13e4a42bd4d7d0943",
+      "release_sha256": "3c6ddeef163a52f56bc0825220d4a3179a2036cfe30a931fc1d789c316c21f84"
+    },
+    {
+      "path": "modules/layer1_data_loader/locator_strategies.py",
+      "upstream_sha256": "e1008f0e7c1f9e0644ad6805005599b46b666eba90647c04bd49fd9fae96d951",
+      "release_sha256": "0d899b2e8256480e5c1b3e1185b0a2add230966dfc4f360c952b7f6cf082ff27"
+    },
+    {
+      "path": "modules/layer2_rr_extraction/__init__.py",
+      "upstream_sha256": "8feb6ffbd9a651df1340af3bce9d570f2ef50aa46f99d55d1d7684ec199fef29",
+      "release_sha256": "cf97939c84fbd7073e5c494a1e5df36089097fcd211f8d14ad7ba43426beb2e2"
+    },
+    {
+      "path": "modules/layer2_rr_extraction/advanced_rr_detector.py",
+      "upstream_sha256": "de0dd2fda0be5155a425c2fcca1266dbe87b25429ccbb193e961c36fc8a30b91",
+      "release_sha256": "1f8af30ebb899c156fbd1027e45e67e84a4b38336a002ba056322ff7d4280180"
+    },
+    {
+      "path": "modules/layer2_rr_extraction/quality_profiles.py",
+      "upstream_sha256": "ec36ff20e0b844b1a4cc51d27fd00df8edc5dffe9592bed2613c36209fa583f2",
+      "release_sha256": "d87ac4502933b39f5b6b6e3cd5a5123cf266725cdf66826aefcd4087ce13d8b5"
+    },
+    {
+      "path": "modules/layer3_segmentation/__init__.py",
+      "upstream_sha256": "2734fa8be5c7cc7589ab324709e5a83d47c68db2968e473ddb74d0c49e0fc7d3",
+      "release_sha256": "f2e95c0b189e2cad31f12ac358b7a4bfdec2875400770c33e35d26218717d10a"
+    },
+    {
+      "path": "modules/layer3_segmentation/clock_sampler.py",
+      "upstream_sha256": "020d116a987bb6f6858ef12de61a8914df95f1baa4632da700ed1b12beefc786",
+      "release_sha256": "4a2ec533acfa63b0e1ea3b2b8758266f4b84c028bcdb30e35e7db035dbd8cc03"
+    },
+    {
+      "path": "modules/layer3_segmentation/quality_filter.py",
+      "upstream_sha256": "49f79c4983405e19e2602cdae0cc60c0e9ffabd5ba5971f0e8ba7fe335deee2d",
+      "release_sha256": "ebc5a8d64ae7ee7b1aeea7c885ac26b6214dd245d7dca818b8918a932b49811c"
+    },
+    {
+      "path": "modules/layer3_segmentation/window_segmenter.py",
+      "upstream_sha256": "329efe6a072cdec6e77adee60190962a021f681b92f667e26f0fd5f5e6fa35df",
+      "release_sha256": "10a085eebf9f0a78b39f1b3f19ab575c2c0178b79e9499023e7e49cf7dfab1e9"
+    },
+    {
+      "path": "modules/layer5_rhythm_detection/__init__.py",
+      "upstream_sha256": "653bd70700b3ac58802b015a0df4f00d0958847bce2c9592d0896b6a1d2161d9",
+      "release_sha256": "d7a153c8b149ed9bdff60bb2a1c8b051053a1c4523e7c02d5ca10ea01ef991bf"
+    },
+    {
+      "path": "modules/layer5_rhythm_detection/afib_filter.py",
+      "upstream_sha256": "7b974362e26e8ba7a913e88676925be48c2e73c7e5235b7c629a212df4cb074e",
+      "release_sha256": "24ea48f2b347dc996649a6629a1afd79288e55b0a1c72fd885d1f29388886114"
+    },
+    {
+      "path": "modules/layer5_rhythm_detection/ectopy_detector.py",
+      "upstream_sha256": "90a97f53d037004a91c841fd903d820c5ed5bbb8f08e7c630d37a6a738eb35c1",
+      "release_sha256": "d2b01cf4fcab46cf057f38415a81d7316b5c0dfd75c3dedb321023f9c40a2212"
+    },
+    {
+      "path": "modules/layer5_rhythm_detection/rhythm_classifier.py",
+      "upstream_sha256": "e87a25b311000953f3adc22730df727c630aed84a9946dff5d52655dd483b321",
+      "release_sha256": "4e4440c6aaef8d8b50e1c0f4f9d54099f1a4f2e6c6a701b7c3d7257e386c1f43"
+    },
+    {
+      "path": "modules/layer5_rhythm_detection/rhythm_processor.py",
+      "upstream_sha256": "bd2b83874b945a6e78758d7e66ed2136624dd3b7afcd7ea5d86506bbe480490a",
+      "release_sha256": "84a84717936d4cdc00f45c900a2fd9214d2a1693b346da052d8875c602042459"
+    },
+    {
+      "path": "modules/layer5_rhythm_detection/sinus_confidence_scorer.py",
+      "upstream_sha256": "e31647ce73bdfd3a5394f1a6bcc45b59206c60fb637919c7829ad8f6e2701191",
+      "release_sha256": "a3381ab6a8722e01b56e841d6e09ff6294469b106370f986253a9402de1831f0"
+    },
+    {
+      "path": "modules/layer5_rhythm_detection/sinus_interpolator.py",
+      "upstream_sha256": "e6da259a47d3d9b55ac341ae81db3f212bd1ededd3d71f898cce1c489f79a5b2",
+      "release_sha256": "89074e855374f7be9966e9358c85ccd1895f7e4e6c5cf0c6652e696486563b41"
+    },
+    {
+      "path": "modules/layer6_features/__init__.py",
+      "upstream_sha256": "450dcd7ad8413f2001b04da6e85b6282c2910a883a9003673b0f619691abf43d",
+      "release_sha256": "24583d202920aaed0fd982cfe59561666ef844f19fb506659747f52dd2257e04"
+    },
+    {
+      "path": "modules/layer6_features/dfa_calculator.py",
+      "upstream_sha256": "e9db5523c5dcea91a5ad53cd67a5d6250f2385cd4e6045609cef4e71b48d1d5a",
+      "release_sha256": "b11ae436b60104f2f26bd871bcae1ecaf6540a30a28c27a3a0c41e7c072283fb"
+    },
+    {
+      "path": "modules/layer6_features/feature_processor.py",
+      "upstream_sha256": "f8461d7dd558b3b53160540a762bd588c875d082f718975655f9894a0e9d5205",
+      "release_sha256": "8b6c4d2011cc938b944ca0c09ef28fd2dd5b0a937451c4eec6f15ae8f57fc3bb"
+    },
+    {
+      "path": "modules/layer6_features/rcmse_numba.py",
+      "upstream_sha256": "cb7bafabb2df5b7c13b3c6b1e7bbadb38d51ebf1ada83e12e2dbb7f0d2611470",
+      "release_sha256": "5fe3666852b954669a50e058fdc5f3234c1a1d22c440ff2ecb35c9c7a553bfde"
+    },
+    {
+      "path": "modules/layer6_features/spatial_complexity.py",
+      "upstream_sha256": "3d29e714ed1e977269c1e174fa7c7f4b2670bd8949d861a324679b11b52ad50c",
+      "release_sha256": "dc2598251cb8802160f33a7d8f6e5935c7b2736f6ae8f2203c3ce612857d1b64"
+    },
+    {
+      "path": "modules/layer7_aggregation/__init__.py",
+      "upstream_sha256": "d43de0f7b14595e0b196cf8dd7a03c0ed6a1152bf25e92e1d126750fc37a416b",
+      "release_sha256": "034be19335b10dcebf85d50f50ded4340530258b30d8df94563f6d79e2ed45bb"
+    },
+    {
+      "path": "modules/layer7_aggregation/coverage_filter.py",
+      "upstream_sha256": "1a6a4a9f4fd695324d02791ce7f1b064e017b593f3276320f9a74823c88917d3",
+      "release_sha256": "82c6847585fe23999458bc567baa87528b1e85715e68b5fba3311a2fa2d34909"
+    },
+    {
+      "path": "modules/layer7_aggregation/record_eligibility.py",
+      "upstream_sha256": "e552f76a4b39ec7a543c670f53441f243c3407cf40dad3e6070c17ea8dd648e1",
+      "release_sha256": "b91a8a61b071188d01bb6a67cc3e4463fe420d9af98ed07d8a0dde629e32c672"
+    },
+    {
+      "path": "modules/layer7_aggregation/record_rr_exporter.py",
+      "upstream_sha256": "26554a04b0a04e5cf1e2859b4d6cc9d3ccccc5a796c003efa0174f6b33c2877d",
+      "release_sha256": "be4245dfe9904977142646bb8ccc922f3391d0732bade7aa3638f38c140e3060"
+    },
+    {
+      "path": "modules/layer7_aggregation/subject_aggregator.py",
+      "upstream_sha256": "07ec1b7fccbae0b2e948034aa68a5830b1e1db9c751685e065c74b6891f982a6",
+      "release_sha256": "80062e1fb6bf88782d7d299490d835d15e422bd20ad0f05e097056eee0764789"
+    },
+    {
+      "path": "modules/layer7_aggregation/window_rr_exporter.py",
+      "upstream_sha256": "edf574501048c0e3a596129303bab9629254e38969d14187b7de39561861db93",
+      "release_sha256": "ff95eb01d53e9e3a6857863a1bc6ee84e4aec99fd9e8aa7f0eb4dae7123459f9"
+    }
+  ],
+  "excluded": [
+    "raw ECG",
+    "clinical data",
+    "outputs",
+    "private formal run profile",
+    "formal lock",
+    "calibration development",
+    "tests",
+    "historical reports"
+  ],
+  "transformations": [
+    "Remove comments and nested docstrings",
+    "Retain one module-level functionality description",
+    "Remove standalone self-test entry blocks"
+  ],
+  "release_entry_sha256": "b643746c76305ad3385efc6d6f8dccb3e60c8ee68dfccf39c7847f0073a51df9",
+  "readme_sha256": "78db173103cd958d2d78bd502d60f00b4cff363f8b3ff80a6ca34d042d7c3c9a",
+  "source_file_count": 41,
+  "environment_sha256": "82c8f10e72446af55535f5a039ca78790eacd43a07265891ee3b3a13f23f5a1d"
+}
